@@ -4,6 +4,7 @@ import json
 import re
 
 RECEPTEN_DIR = os.path.dirname(os.path.abspath(__file__))
+INPUT_DIR = os.path.join(RECEPTEN_DIR, 'input')
 OUTPUT = os.path.join(RECEPTEN_DIR, 'index.html')
 
 def parse_frontmatter(content):
@@ -70,10 +71,10 @@ def parse_recipe(filepath):
     }
 
 recipes = []
-for filename in sorted(os.listdir(RECEPTEN_DIR)):
+for filename in sorted(os.listdir(INPUT_DIR)):
     if filename.endswith('.md') and filename != 'recept template.md':
         try:
-            recipes.append(parse_recipe(os.path.join(RECEPTEN_DIR, filename)))
+            recipes.append(parse_recipe(os.path.join(INPUT_DIR, filename)))
         except Exception as e:
             print(f'Fout bij {filename}: {e}')
 
