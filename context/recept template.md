@@ -4,16 +4,20 @@ totale bereidingstijd:
 bron:
 cover-image:
 ---
-#recept 
+
+# [Receptnaam]
 
 ---
-## Ingredienten
-- ...
+
+## Ingrediënten
 - 
+- 
+
 ---
+
 ## Instructies
-1. ...
-2. ...
+1. 
+2. 
 
 ---
 

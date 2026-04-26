@@ -1,0 +1,23 @@
+{
+  "skill_name": "add-recipe",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Voeg recept toe van deze URL: https://www.budget-bytes.com/example-recipe",
+      "expected_output": "Skill leest de URL, extraheert recipe content (titel, ingrediënten, instructies, tips), converteert naar MD volgens template, en slaat op in input/ folder.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Ik heb een PDF met recepten, kan je die omzetten naar markdown?",
+      "expected_output": "Skill vraagt user om het PDF bestand te uploaden, leest het, extraheert recepten, converteert naar template format, slaat op als .md files.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Add recipe - ik heb een screenshot van een recept",
+      "expected_output": "Skill vraagt user om de afbeelding te uploaden, leest de tekst van de afbeelding, converteert naar MD template, slaat op in input/.",
+      "files": []
+    }
+  ]
+}
