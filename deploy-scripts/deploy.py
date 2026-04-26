@@ -2,6 +2,7 @@
 """
 Build and deploy recipes website to GitHub.
 Runs build_site.py, commits changes, and pushes to GitHub with auto-generated timestamp.
+Usage: python3 deploy.py
 """
 
 import subprocess
@@ -29,34 +30,25 @@ def run_command(cmd, description="", cwd=None):
         return False
 
 def main():
-    # Default to current directory or use argument
-    if len(sys.argv) > 1:
-        repo_dir = Path(sys.argv[1])
-    else:
-        # If run from scripts folder, go to parent folder
-        current = Path.cwd()
-        if current.name == "scripts" and (current.parent / "build_site.py").exists():
-            repo_dir = current.parent
-        else:
-            repo_dir = current
+    # Go to parent directory (recepten root) since this script is in deploy-scripts/
+    script_dir = Path(__file__).parent
+    repo_dir = script_dir.parent
 
     # Verify directory exists and has build script
     if not repo_dir.exists():
         print(f"❌ Directory not found: {repo_dir}")
         sys.exit(1)
 
-    build_script = repo_dir / "build_site.py"
+    build_script = script_dir / "build_site.py"
     if not build_script.exists():
-        print(f"❌ build_site.py not found in {repo_dir}")
-        print(f"   Looked in: {repo_dir}")
-        print(f"   Files found: {list(repo_dir.glob('*.py'))[:5]}")
+        print(f"❌ build_site.py not found in {script_dir}")
         sys.exit(1)
 
     print(f"📦 Building recipes website in: {repo_dir}")
     print("=" * 60)
 
     # Step 1: Run build script
-    if not run_command(f"python3 build_site.py", "🏗️  Building website", cwd=repo_dir):
+    if not run_command(f"python3 build_site.py", "🏗️  Building website", cwd=script_dir):
         sys.exit(1)
 
     print("\n✅ Website built successfully")

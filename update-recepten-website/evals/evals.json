@@ -1,0 +1,23 @@
+{
+  "skill_name": "update-recepten-website",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Ik heb net twee nieuwe recepten toegevoegd. Update recepten website.",
+      "expected_output": "Skill vraagt of je wilt build, deploy, of beide. User kiest 'both'. Skill runt build_site.py en deploy.py.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Ik heb de website al gebouwd, nu wil ik alleen naar GitHub pushen.",
+      "expected_output": "Skill vraagt wat je wilt. User kiest 'deploy'. Skill runt alleen deploy.py.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Ik wil mijn recepten website bijwerken.",
+      "expected_output": "Skill vraagt of je wilt build, deploy, of beide. User kiest naar keuze.",
+      "files": []
+    }
+  ]
+}

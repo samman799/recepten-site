@@ -3,7 +3,8 @@ import os
 import json
 import re
 
-RECEPTEN_DIR = os.path.dirname(os.path.abspath(__file__))
+# Go to parent directory (recepten root) since this script is in deploy-scripts/
+RECEPTEN_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_DIR = os.path.join(RECEPTEN_DIR, 'input')
 OUTPUT = os.path.join(RECEPTEN_DIR, 'index.html')
 
