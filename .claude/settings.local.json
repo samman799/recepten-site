@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(strings Quesadilla*.pdf)",
+      "Bash(open:*)"
+    ]
+  }
+}
