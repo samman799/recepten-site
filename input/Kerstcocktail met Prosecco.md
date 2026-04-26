@@ -2,7 +2,7 @@
 porties: 4 personen
 totale bereidingstijd: 50 minuten (20 min. bereiden, 30 min. wachten)
 bron: Allerhande (https://www.ah.nl/allerhande/recept/R-R1201551/kerstcocktail-met-prosecco)
-cover-image: https://www.ah.nl/allerhande/recept/R-R1201551/kerstcocktail-met-prosecco
+cover-image: https://static.ah.nl/static/recepten/img_RAM_PRD213897_1224x900_JPG.jpg
 ---
 
 # Kerstcocktail met Prosecco

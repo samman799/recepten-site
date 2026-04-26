@@ -21,6 +21,9 @@ When you say something like **"Add recipe"** or **"Voeg recept toe"**, this skil
 
 ### Step 2: Extract recipe
 - If URL: Visit the link, extract recipe (title, ingredients, instructions, etc.)
+  - **Also extracts recipe image:** Looks for the main recipe image on the page and grabs its direct URL
+  - Finds `<img>` tags and identifies the recipe photo
+  - Uses that as `cover-image:` in the template
 - If file: Read and parse the file content
 
 ### Step 3: Convert to template
@@ -64,9 +67,15 @@ Saves the recipe as a `.md` file in your `input/` folder with a descriptive name
 
 ## Output
 
-A new Markdown file in `/Users/samtenvoorde/Documents/recepten/input/` ready to be built into your website.
+A new Markdown file in `/Users/samtenvoorde/Documents/recepten/input/` with:
+- ✅ Recipe title, ingredients, instructions
+- ✅ **Cover image URL** automatically extracted from the website (shows in the recipe card!)
+- ✅ Bron link in the frontmatter
+- ✅ Ready to be built into your website
 
 Example: `Tiramisu.md`, `Pasta Carbonara.md`, etc.
+
+**Cover image note:** When you use a URL, the skill automatically finds and extracts the recipe photo from the website. This image will show on your website recipe cards! 🖼️
 
 ## Next steps
 
