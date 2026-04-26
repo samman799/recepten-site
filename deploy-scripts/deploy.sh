@@ -13,6 +13,17 @@ TIMESTAMP=$(date '+%Y-%m-%d %H:%M')
 echo "📦 Building recipes website in: $REPO_DIR"
 cd "$REPO_DIR"
 
+# Clean up any stale Git lock files
+if [ -f ".git/HEAD.lock" ]; then
+    echo "🧹 Cleaning up stale HEAD.lock file..."
+    rm -f .git/HEAD.lock
+fi
+
+if [ -f ".git/index.lock" ]; then
+    echo "🧹 Cleaning up stale index.lock file..."
+    rm -f .git/index.lock
+fi
+
 # Verify we have the build script
 if [ ! -f "deploy-scripts/build_site.py" ]; then
     echo "❌ Error: build_site.py not found in deploy-scripts/"

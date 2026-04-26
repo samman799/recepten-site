@@ -29,6 +29,21 @@ def run_command(cmd, description="", cwd=None):
         print(f"❌ Error: {e.stderr}")
         return False
 
+def clean_git_locks(repo_dir):
+    """Remove stale Git lock files if they exist."""
+    lock_files = [
+        repo_dir / ".git" / "HEAD.lock",
+        repo_dir / ".git" / "index.lock",
+    ]
+
+    for lock_file in lock_files:
+        if lock_file.exists():
+            try:
+                lock_file.unlink()
+                print(f"🧹 Cleaned up stale lock file: {lock_file.name}")
+            except Exception as e:
+                print(f"⚠️  Could not remove {lock_file.name}: {e}")
+
 def main():
     # Go to parent directory (recepten root) since this script is in deploy-scripts/
     script_dir = Path(__file__).parent
@@ -46,6 +61,9 @@ def main():
 
     print(f"📦 Building recipes website in: {repo_dir}")
     print("=" * 60)
+
+    # Clean up any stale Git locks before starting
+    clean_git_locks(repo_dir)
 
     # Step 1: Run build script
     if not run_command(f"python3 build_site.py", "🏗️  Building website", cwd=script_dir):
