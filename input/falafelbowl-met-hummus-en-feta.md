@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/dfd8be86f55154382fd293c09aff59d25b196e9e0aa49995ac9d3ac8aff986db/filled-2000x2000.webp
 ---
 # Falafelbowl met hummus en feta
 
