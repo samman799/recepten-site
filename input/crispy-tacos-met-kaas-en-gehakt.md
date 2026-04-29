@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/25fc72c7e3501b679259106cd516aecefbdc994ef088f085c18df9424924d28b/filled-2000x2000.webp
 ---
 # Crispy taco's met kaas en gehakt
 
