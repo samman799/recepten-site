@@ -47,7 +47,7 @@ def parse_recipe(filepath):
         sections[current_section] = '\n'.join(current_lines).strip()
 
     ingredienten = []
-    for line in sections.get('Ingredienten', '').split('\n'):
+    for line in sections.get('Ingrediënten', '').split('\n'):
         line = line.strip()
         if line.startswith('**') and line.endswith('**'):
             ingredienten.append({'group': line.strip('*')})
