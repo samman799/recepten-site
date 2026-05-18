@@ -7,7 +7,7 @@ cover-image:
 # Rode curry noedelsoep
 
 ---
-## Ingredienten
+## Ingrediënten
 - 250 g noedels naar keuze
 - 1 ui
 - 1 rode paprika

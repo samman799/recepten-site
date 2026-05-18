@@ -7,7 +7,7 @@ cover-image:
 # Biefstuktaco's met mangosalsa
 
 ---
-## Ingredienten
+## Ingrediënten
 - 2 biefstukken
 - 8 mini wraps (tortilla)
 - 1 mango

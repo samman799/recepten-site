@@ -7,7 +7,7 @@ cover-image:
 # Flatbread met doperwtenpesto en sticky halloumi
 
 ---
-## Ingredienten
+## Ingrediënten
 - 8 stuks brioche flatbreads
 - 450 g halloumi (2 pakjes)
 - 450 g erwten (diepvries)

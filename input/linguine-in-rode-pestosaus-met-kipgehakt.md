@@ -7,7 +7,7 @@ cover-image:
 # Linguine in rode pestosaus met kipgehakt
 
 ---
-## Ingredienten
+## Ingrediënten
 - 300 g kipgehakt gekruid
 - 400 g linguine
 - 4 el rode pesto

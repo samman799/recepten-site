@@ -7,7 +7,7 @@ cover-image:
 # Maaltijdsalade met orzo en gerookte kip
 
 ---
-## Ingredienten
+## Ingrediënten
 - 170 g gerookte kipfilet
 - 2 appels
 - 150 g veldsla

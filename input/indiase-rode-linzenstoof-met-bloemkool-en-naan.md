@@ -7,7 +7,7 @@ cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/re
 # Indiase rode linzenstoof met bloemkool en naan
 
 ---
-## Ingredienten
+## Ingrediënten
 - 300 g rode linzen
 - 2 el garam masala
 - 500 g tomaten

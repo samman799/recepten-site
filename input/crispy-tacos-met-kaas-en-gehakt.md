@@ -7,7 +7,7 @@ cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/re
 # Crispy taco's met kaas en gehakt
 
 ---
-## Ingredienten
+## Ingrediënten
 - 12 tacoschelpen
 - 400 g Mexicaanse roerbakgroenten
 - 200 g crème fraîche

@@ -7,7 +7,7 @@ cover-image:
 # Miso Peanut Ramen Bowls
 
 ---
-## Ingredienten
+## Ingrediënten
 **Crispy tofu:**
 - 1 blok extra stevige tofu
 - 1 el olijfolie

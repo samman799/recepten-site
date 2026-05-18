@@ -7,7 +7,7 @@ cover-image:
 # Pinda-rijstnoedels met crispy gyoza's
 
 ---
-## Ingredienten
+## Ingrediënten
 - 200 g brede rijstnoedels
 - 150 g wortel julienne
 - 16 stuks gyoza's kip

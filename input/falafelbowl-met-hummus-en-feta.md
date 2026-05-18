@@ -7,7 +7,7 @@ cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/re
 # Falafelbowl met hummus en feta
 
 ---
-## Ingredienten
+## Ingrediënten
 - 380 g spicy falafel
 - 150 ml knoflooksaus
 - 1 komkommer

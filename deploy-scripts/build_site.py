@@ -387,12 +387,42 @@ function renderGrid(list) {{
 
 let filteredRecipes = [...recipes];
 
+// Levenshtein distance for fuzzy matching
+function levenshtein(a, b) {{
+  const m = a.length, n = b.length;
+  const dp = Array(m + 1).fill(null).map(() => Array(n + 1).fill(0));
+  for (let i = 0; i <= m; i++) dp[i][0] = i;
+  for (let j = 0; j <= n; j++) dp[0][j] = j;
+  for (let i = 1; i <= m; i++) {{
+    for (let j = 1; j <= n; j++) {{
+      if (a[i - 1] === b[j - 1]) dp[i][j] = dp[i - 1][j - 1];
+      else dp[i][j] = 1 + Math.min(dp[i - 1][j], dp[i][j - 1], dp[i - 1][j - 1]);
+    }}
+  }}
+  return dp[m][n];
+}}
+
+// Check if query matches text with fuzzy matching (allow ~25% errors)
+function fuzzyMatch(text, query) {{
+  if (!query) return true;
+  text = text.toLowerCase();
+  query = query.toLowerCase();
+  if (text.includes(query)) return true;  // Exact match first
+  const distance = levenshtein(text, query);
+  const threshold = Math.ceil(query.length * 0.3);
+  return distance <= threshold;
+}}
+
 function filterRecipes() {{
-  const q = document.getElementById('search').value.toLowerCase();
-  filteredRecipes = recipes.filter(r =>
-    r.title.toLowerCase().includes(q) ||
-    r.ingredienten.some(i => typeof i === 'string' && i.toLowerCase().includes(q))
-  );
+  const q = document.getElementById('search').value.toLowerCase().trim();
+  if (!q) {{
+    filteredRecipes = [...recipes];
+  }} else {{
+    filteredRecipes = recipes.filter(r =>
+      fuzzyMatch(r.title, q) ||
+      r.ingredienten.some(i => typeof i === 'string' && fuzzyMatch(i, q))
+    );
+  }}
   renderGrid(filteredRecipes);
 }}
 

@@ -7,7 +7,7 @@ cover-image:
 # Platbroodpizza's met prosciutto en parmezaan
 
 ---
-## Ingredienten
+## Ingrediënten
 - 8 Libanese platbroden
 - 500 g gezeefde tomaten
 - 110 g prosciutto

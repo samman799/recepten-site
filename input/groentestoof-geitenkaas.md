@@ -7,7 +7,7 @@ cover-image:
 # Groentestoof geitenkaas
 
 ---
-## Ingredienten
+## Ingrediënten
 - 1 groentestoof geitenkaas verspakket (bevat: wortel, aardpeer, pommes rouges, bleekselderij, sjalot, knoflook, tijm, rozemarijn, tomatenpuree, kruidenmix, tomaten, linzen)
 - 125 g geitenkaas
 - 1 stokbrood

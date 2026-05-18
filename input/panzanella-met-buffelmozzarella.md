@@ -7,7 +7,7 @@ cover-image:
 # Panzanella met buffelmozzarella
 
 ---
-## Ingredienten
+## Ingrediënten
 - 1 ciabatta
 - 2 buffelmozzarella's
 - 1 bosje basilicum

@@ -7,7 +7,7 @@ cover-image:
 # Pasta met nduja en buffelmozzarella
 
 ---
-## Ingredienten
+## Ingrediënten
 - 300 g rigatoni
 - 2 à 3 el nduja
 - 800 g snacktomaatjes

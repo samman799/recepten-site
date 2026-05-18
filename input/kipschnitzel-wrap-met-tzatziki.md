@@ -7,7 +7,7 @@ cover-image:
 # Kipschnitzel-wrap met tzatziki
 
 ---
-## Ingredienten
+## Ingrediënten
 - 4 kipschnitzels
 - 1 komkommer
 - 1 gele paprika

@@ -7,7 +7,7 @@ cover-image:
 # Kipfajita's met avocadoyoghurt
 
 ---
-## Ingredienten
+## Ingrediënten
 - 400 g kipdijfiletreepjes
 - 3 paprika's
 - 1 zakje fajitakruiden

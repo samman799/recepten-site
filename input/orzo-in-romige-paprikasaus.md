@@ -7,7 +7,7 @@ cover-image:
 # Orzo in romige paprikasaus
 
 ---
-## Ingredienten
+## Ingrediënten
 - 400 g orzo
 - 1 rode paprika
 - 400 g spinazie

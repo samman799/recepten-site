@@ -7,7 +7,7 @@ cover-image:
 # Snelle noedels met runderreepjes
 
 ---
-## Ingredienten
+## Ingrediënten
 - 600 g udonnoedels
 - 300 g runderreepjes
 - 400 g Japanse wokgroenten

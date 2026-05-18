@@ -7,7 +7,7 @@ cover-image:
 # Mini-penne met ham en champignonsaus
 
 ---
-## Ingredienten
+## Ingrediënten
 - 300 g mini-penne
 - 600 g champignon-roerbakgroenten
 - 250 ml kookroom

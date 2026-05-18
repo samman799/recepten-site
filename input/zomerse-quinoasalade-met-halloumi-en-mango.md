@@ -7,7 +7,7 @@ cover-image:
 # Zomerse quinoasalade met halloumi en mango
 
 ---
-## Ingredienten
+## Ingrediënten
 - 100 g kropslamix
 - 275 g quinoa
 - 400 g halloumi
