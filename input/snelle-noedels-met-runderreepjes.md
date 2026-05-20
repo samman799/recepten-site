@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/daff79e12825ce6aafdeea3f6bfeb219c262e2a3930cb3df93e870cf09ed05c3/filled-2000x2000.webp
 ---
 # Snelle noedels met runderreepjes
 

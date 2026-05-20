@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 15 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/f760fc07bc9a64e37c22ef90e5a3a2d2ebd0fa6abbe273d4e11d4728dadf3511/filled-2000x2000.webp
 ---
 # Kipschnitzel-wrap met tzatziki
 

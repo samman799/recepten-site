@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 30 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/1c7f7a1be2f5c1cd88f6bf3529a28b8b0ef72074c8be417dc01b0b1dd816a04b/filled-2000x2000.webp
 ---
 # Orzo in romige paprikasaus
 

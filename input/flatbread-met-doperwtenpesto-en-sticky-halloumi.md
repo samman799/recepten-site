@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/4034f6b6e71029b8077ead8628e4e96eecd99229b34c071ca9e44d3ceaf4e006/filled-2000x2000.webp
 ---
 # Flatbread met doperwtenpesto en sticky halloumi
 

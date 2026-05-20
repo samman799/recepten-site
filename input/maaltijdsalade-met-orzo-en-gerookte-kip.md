@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/25d81b38a63e17098487f3ef56a0c5d69058d36974d34807d4a9c57aab073aad/filled-2000x2000.webp
 ---
 # Maaltijdsalade met orzo en gerookte kip
 

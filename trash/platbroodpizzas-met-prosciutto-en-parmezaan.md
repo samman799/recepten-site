@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/ac2f9fa7ba4b4fae161a267a7e4857416c36d43be4874e2bd83380e0876db8b6/filled-2000x2000.webp
 ---
 # Platbroodpizza's met prosciutto en parmezaan
 

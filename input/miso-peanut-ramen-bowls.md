@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 35 minuten
 bron: Pinch of Yum
-cover-image:
+cover-image: https://pinchofyum.com/tachyon/Miso-Peanut-Ramen-Bowls-with-toppings.jpg?
 ---
 # Miso Peanut Ramen Bowls
 

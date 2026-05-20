@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/17c17b98f3d5b6fefd56c6f315e35f2357017c8bfd405531e7e46b7f67e3cac9/filled-2000x2000.webp
 ---
 # Biefstuktaco's met mangosalsa
 

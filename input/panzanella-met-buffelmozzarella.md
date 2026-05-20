@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 30 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/2dd13d3d280b7e4044f1674570d97d627227e2ba406269009432a22323010b2b/filled-2000x2000.webp
 ---
 # Panzanella met buffelmozzarella
 

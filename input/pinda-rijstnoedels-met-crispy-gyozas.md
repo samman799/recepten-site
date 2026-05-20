@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/f8213a523d4df4106bacd47272ad19a95ab7bdd1b47287a53f924f06d35dc064/filled-2000x2000.webp
 ---
 # Pinda-rijstnoedels met crispy gyoza's
 

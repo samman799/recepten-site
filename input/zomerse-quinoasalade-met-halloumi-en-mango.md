@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/5c0b56e2d4d8d6eb0fbc4f54e71c348e5f3f61b0fa8e956224a8184b9fb4efff/filled-2000x2000.webp
 ---
 # Zomerse quinoasalade met halloumi en mango
 

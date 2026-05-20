@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/df566abeee4ac1bb9e2034b12825efc95a95b10e05969d7f612295ca3ca82078/filled-2000x2000.webp
 ---
 # Linguine in rode pestosaus met kipgehakt
 

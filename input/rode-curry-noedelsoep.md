@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 30 minuten
 bron: Lekker eten met Linda
-cover-image:
+cover-image: https://www.lekkeretenmetlinda.nl/wp-content/uploads/2021/02/Rode-curry-noedelsoep-3-a.jpg
 ---
 # Rode curry noedelsoep
 

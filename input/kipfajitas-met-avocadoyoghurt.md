@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/71cb2bc986025ac309cd232a819fddcb0fe67cf3d496281065eb8bdcb7d82f5e/filled-2000x2000.webp
 ---
 # Kipfajita's met avocadoyoghurt
 

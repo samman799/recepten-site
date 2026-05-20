@@ -6,7 +6,16 @@
       "Bash(git add:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(done)",
+      "Bash(grep -l \"## Ingredienten\" input/*.md)",
+      "Bash(grep -l \"## Ingrediënten\" input/*.md)",
+      "Bash(grep -c \"## Ingrediënten\" input/*.md)",
+      "Bash(grep -v \":0$\")",
+      "Bash(mkdir -p skills)"
+    ],
+    "additionalDirectories": [
+      "/Users/samtenvoorde/Library/CloudStorage/ProtonDrive-samtenvoorde@pm.me-folder/Projecten/Recepten site"
     ]
   }
 }

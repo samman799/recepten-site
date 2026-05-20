@@ -2,7 +2,7 @@
 porties: 4
 totale bereidingstijd: 20 minuten
 bron: Picnic
-cover-image:
+cover-image: https://storefront-prod.nl.picnicinternational.com/static/images/recipes/41a695cf227f4a8f36728c6afac3d1ee7c7cf5b87a4c2ddf2aeca4e642166b21/filled-2000x2000.webp
 ---
 # Pasta met nduja en buffelmozzarella
 
